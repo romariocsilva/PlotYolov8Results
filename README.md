@@ -12,4 +12,6 @@ Converter o arquivo .csv para .xlsx, renomear as colunas para remover espaços o
 
 Para plotagem foram utilizadas as bibliotecas python Pandas e Matplotlib.
 
+pip install -r requirements.txt
+
 Um If foi inserido na parte inicial do código para verificar se as colunas com os nomes informados de fato existem. Caso contrário, os resultados não serão gerados e o usuário será informado sobre a inexistência das colunas.
